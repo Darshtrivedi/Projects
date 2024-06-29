@@ -1,0 +1,5 @@
+var express=require("express")
+var app=express()
+var path=require("path")
+var sp=path.join(__dirname,"../public")
+app.use(express.static(sp))

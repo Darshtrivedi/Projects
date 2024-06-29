@@ -1,0 +1,102 @@
+ID,Name,Category,Material,Color,Price,Availability
+1,Modern Sofa,Sofa,Leather,Black,8000 per month,Available
+10,Patio Set,Outdoor Furniture,Metal,Black,7200 per month,Available
+100,Patio Set,Outdoor Furniture,Metal,Black,7200 per month,Available
+11,Recliner Chair,Chair,Leather,Brown,4800 per month,Available
+12,TV Stand,Stand,Wood,Black,2800 per month,Unavailable
+13,Bar Stool,Stool,Metal,Silver,1200 per month,Available
+14,Sectional Sofa,Sofa,Fabric,Gray,9600 per month,Available
+15,King Bed,Bed,Wood,Black,12000 per month,Unavailable
+16,Console Table,Table,Wood,Walnut,3200 per month,Available
+17,Ottoman,Storage,Fabric,Blue,2000 per month,Available
+18,Coffee Table,Table,Wood,Brown,2400 per month,Unavailable
+19,Desk,Table,Wood,White,4000 per month,Available
+2,Wooden Dining Table,Dining Table,Wood,Brown,6400 per month,Available
+20,Bookshelf,Shelf,Metal,Gray,3600 per month,Available
+21,Dining Chair,Chair,Wood,Black,1600 per month,Unavailable
+22,Sofa Bed,Sofa,Fabric,Blue,7200 per month,Available
+23,Bedside Table,Table,Wood,Brown,2400 per month,Available
+24,Armchair,Chair,Leather,Black,4000 per month,Unavailable
+25,Sideboard,Storage,Wood,Cherry,6000 per month,Available
+26,Patio Sofa,Outdoor Furniture,Metal,White,8000 per month,Available
+27,Rocking Chair,Chair,Wood,Brown,2800 per month,Unavailable
+28,Hall Tree,Storage,Wood,Black,4400 per month,Available
+29,Chaise Lounge,Chair,Fabric,Gray,5600 per month,Available
+3,Office Chair,Chair,Mesh,Gray,3200 per month,Unavailable
+30,End Table,Table,Wood,White,1600 per month,Unavailable
+31,Storage Bench,Storage,Fabric,Blue,3200 per month,Available
+32,Kids Bed,Bed,Wood,Pink,4800 per month,Available
+33,Outdoor Table,Outdoor Furniture,Metal,Black,5600 per month,Unavailable
+34,Reclining Sofa,Sofa,Fabric,Brown,8800 per month,Available
+35,Office Desk,Table,Wood,Gray,4800 per month,Available
+36,Dining Set,Dining Table,Wood,Black,12000 per month,Unavailable
+37,Gaming Chair,Chair,Fabric,Red,4000 per month,Available
+38,Pantry Cabinet,Storage,Wood,White,6400 per month,Available
+39,Accent Chair,Chair,Fabric,Green,3600 per month,Unavailable
+4,Queen Bed,Bed,Wood,White,9600 per month,Available
+40,Buffet Table,Table,Wood,Brown,4800 per month,Available
+41,Love Seat,Sofa,Leather,Red,6800 per month,Available
+42,Vanity,Table,Wood,White,5600 per month,Unavailable
+43,Outdoor Bench,Outdoor Furniture,Metal,Gray,4000 per month,Available
+44,TV Cabinet,Storage,Wood,Black,4400 per month,Available
+45,Bunk Bed,Bed,Wood,White,10400 per month,Unavailable
+46,Futon,Sofa,Fabric,Black,5200 per month,Available
+47,Coat Rack,Storage,Wood,Cherry,2000 per month,Available
+48,Lounge Chair,Chair,Fabric,Blue,4400 per month,Unavailable
+49,Corner Shelf,Shelf,Wood,Black,2800 per month,Available
+5,Coffee Table,Table,Glass,Clear,2400 per month,Available
+50,Kitchen Island,Storage,Wood,White,7600 per month,Available
+51,Media Console,Storage,Wood,Brown,5600 per month,Unavailable
+52,Armchair,Chair,Fabric,Yellow,4000 per month,Available
+53,Nightstand,Table,Wood,Gray,2000 per month,Available
+54,Dresser,Storage,Wood,Black,5600 per month,Unavailable
+55,Patio Set,Outdoor Furniture,Metal,Black,7200 per month,Available
+56,Recliner Chair,Chair,Leather,Brown,4800 per month,Available
+57,TV Stand,Stand,Wood,Black,2800 per month,Unavailable
+58,Bar Stool,Stool,Metal,Silver,1200 per month,Available
+59,Sectional Sofa,Sofa,Fabric,Gray,9600 per month,Available
+6,Bookshelf,Shelf,Wood,Black,4000 per month,Unavailable
+60,King Bed,Bed,Wood,Black,12000 per month,Unavailable
+61,Console Table,Table,Wood,Walnut,3200 per month,Available
+62,Ottoman,Storage,Fabric,Blue,2000 per month,Available
+63,Coffee Table,Table,Wood,Brown,2400 per month,Unavailable
+64,Desk,Table,Wood,White,4000 per month,Available
+65,Bookshelf,Shelf,Metal,Gray,3600 per month,Available
+66,Dining Chair,Chair,Wood,Black,1600 per month,Unavailable
+67,Sofa Bed,Sofa,Fabric,Blue,7200 per month,Available
+68,Bedside Table,Table,Wood,Brown,2400 per month,Available
+69,Armchair,Chair,Leather,Black,4000 per month,Unavailable
+7,Armchair,Chair,Fabric,Blue,3600 per month,Available
+70,Sideboard,Storage,Wood,Cherry,6000 per month,Available
+71,Patio Sofa,Outdoor Furniture,Metal,White,8000 per month,Available
+72,Rocking Chair,Chair,Wood,Brown,2800 per month,Unavailable
+73,Hall Tree,Storage,Wood,Black,4400 per month,Available
+74,Chaise Lounge,Chair,Fabric,Gray,5600 per month,Available
+75,End Table,Table,Wood,White,1600 per month,Unavailable
+76,Storage Bench,Storage,Fabric,Blue,3200 per month,Available
+77,Kids Bed,Bed,Wood,Pink,4800 per month,Available
+78,Outdoor Table,Outdoor Furniture,Metal,Black,5600 per month,Unavailable
+79,Reclining Sofa,Sofa,Fabric,Brown,8800 per month,Available
+8,Nightstand,Table,Wood,White,2000 per month,Available
+80,Office Desk,Table,Wood,Gray,4800 per month,Available
+81,Dining Set,Dining Table,Wood,Black,12000 per month,Unavailable
+82,Gaming Chair,Chair,Fabric,Red,4000 per month,Available
+83,Pantry Cabinet,Storage,Wood,White,6400 per month,Available
+84,Accent Chair,Chair,Fabric,Green,3600 per month,Unavailable
+85,Buffet Table,Table,Wood,Brown,4800 per month,Available
+86,Love Seat,Sofa,Leather,Red,6800 per month,Available
+87,Vanity,Table,Wood,White,5600 per month,Unavailable
+88,Outdoor Bench,Outdoor Furniture,Metal,Gray,4000 per month,Available
+89,TV Cabinet,Storage,Wood,Black,4400 per month,Available
+9,Dresser,Storage,Wood,Cherry,5600 per month,Unavailable
+90,Bunk Bed,Bed,Wood,White,10400 per month,Unavailable
+91,Futon,Sofa,Fabric,Black,5200 per month,Available
+92,Coat Rack,Storage,Wood,Cherry,2000 per month,Available
+93,Lounge Chair,Chair,Fabric,Blue,4400 per month,Unavailable
+94,Corner Shelf,Shelf,Wood,Black,2800 per month,Available
+95,Kitchen Island,Storage,Wood,White,7600 per month,Available
+96,Media Console,Storage,Wood,Brown,5600 per month,Unavailable
+97,Armchair,Chair,Fabric,Yellow,4000 per month,Available
+98,Nightstand,Table,Wood,Gray,2000 per month,Available
+99,Dresser,Storage,Wood,Black,5600 per month,Unavailable
+ID,Name,Category,Material,Color,Rental Price (INR),Availability

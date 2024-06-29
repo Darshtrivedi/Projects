@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="bootstrap4.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap5.css" type="text/css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="classes.css" type="text/css">
+    <style>
+        .navbar-nav a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+
+        @media (max-width: 767px) {
+            .navbar-nav {
+                flex-direction: column;
+            }
+
+            .navbar-nav a {
+                padding: 10px;
+            }
+        }
+    </style>
+    <title>Trekking</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm" style="position: absolute; width: 100%; z-index: 3;backdrop-filter: blur(5px);">
+        <div class="container" style="margin-top: 10px;margin-left: 20px;">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo (2).png" class="rounded-pill justify-content-center" alt="image"style="width: 70px;">
+                <p style="font-variant:small-caps;display: inline;color: black;margin-left: 2%;">Rent`Furn</p>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#main">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form action="/" method="get">
+            <div class="collapse navbar-collapse " id="main">
+                <ul class="navbar-nav " style="font-size: large; font-weight: 575;">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link text-dark rounded">Home</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="Signup.html" class="nav-link text-dark rounded" data-bs-toggle="modal"  data-bs-target="#SignupModal">Signup</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link text-dark rounded">Contact</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-dark rounded" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</a>
+                    </li>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;
+                    <li class="nav-item " style="float: inline-end; margin-left:200px;"> <input class="form-control  text-dark bg-white "   type="search" placeholder="Search" aria-label="Search">
+                        <li class="nav-item " style="float: inline-end;"> <button class="btn btn-outline-transparent text-dark my-2 my-sm-0" type="submit">Search</button></li>
+                        
+                </ul>
+            </div>
+        </form>
+        </div>
+    </nav>
+    
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/login" method="post">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" name="password" class="form-control" id="password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Signup -->
+
+    <div class="modal fade" id="SignupModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Signup</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="/signup" method="post">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="username">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label"> Create Password</label>
+                            <input type="password" name="password1" class="form-control" id="password1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label"> Confirm Password</label>
+                            <input type="password" name="password2" class="form-control" id="password2">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Signup</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="images" class="carousel slide" data-ride="carousel" style="z-index: 2;">
+        <ol class="carousel-indicators">
+            <li data-target="#images" data-slide-to="0" class="active"></li>
+            <li data-target="#images" data-slide-to="1"></li>
+            <li data-target="#images" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" height="500px" src="images/ad1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" height="500px" src="images/ad2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" height="500px" src="images/ad3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#images" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#images" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h3>Popular <U>Destinations</U></h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <h4
+                    style="position: absolute; margin-top: 260px; color: white; margin-left: 20px; font-size: xx-large; z-index: 1;">
+                    Kashmir</h4>
+                <a href="kashmirr.html"><img src="Kashmir.jpg" alt="Kashmir" style="height: 350px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3">
+                <h4
+                    style="position: absolute; margin-top: 260px; color: white; margin-left: 20px; font-size: xx-large; z-index: 1;">
+                    Himachal</h4>
+                <a href="himachall.html"><img src="himachal.jpg" alt="himachal" style="height: 350px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3">
+                <h4
+                    style="position: absolute; margin-top: 260px; color: white; margin-left: 20px; font-size: xx-large; z-index: 1;">
+                    Ladakh</h4>
+                <a href="ladakh.html"><img src="Ladakh.jpg" alt="Ladakh" style="height: 350px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3">
+                <h4
+                    style="position: absolute; margin-top: 260px; color: white; margin-left: 20px; font-size: xx-large; z-index: 1;">
+                    Uttarakhand</h4>
+                <a href="uttarakhand.html"><img src="Kasol Manali.jpg" alt="Uttarakhand" style="height: 350px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="container">
+        <h3>Summer <u>Treks</u></h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 130px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Har ki <br> Doon</h4>
+                <a href="Har Ki Doon.html"><img src="Har ki Doon.jpg" alt="Har ki Doon" style="height: 220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 150px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Dalhousie</h4>
+                <a href="Dalhousie.html"><img src="Dalhousie.jpg" alt="Dalhousie" style="height:220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 130px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Hampta <br> pass</h4>
+                <a href="hampta.html"><img src="hampta.jpg" alt="zanskar" style="height: 220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 150px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Coorg</h4>
+                <a href="#"><img src="Coorg.png" alt="Saputara" style="height: 220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="container">
+        <h3>Snow <u>Treks</u></h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 150px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Kedarkantha</h4>
+                <a href="Kedarkantha.html"><img src="Kedarkantha.jpg" alt="Kedarkantha" style="height: 220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 150px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Chadar</h4>
+                <a href="Chadar.html"><img src="Chadar.jpg" alt="Chadar" style="height:220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 150px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Brahmatal</h4>
+                <a href="Brahmatal.html"><img src="Brahmatal.jpg" alt="Brahmatal" style="height: 220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+            <div class="col-sm-3 justify-content-center">
+                <h4
+                    style="position: absolute; margin-top: 150px; color: white; margin-left: 20px; font-size: x-large; z-index: 1;">
+                    Kuari <br> Pass</h4>
+                <a href="kuari.html"><img src="Kuari Pass.jpg" alt="Kuari Pass" style="height: 220px;"
+                        class="popular rounded fade-in"></a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid bg-dark text-white py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="Home.html">
+                    <img src="https://st4.depositphotos.com/31915596/40915/v/380/depositphotos_409156440-stock-illustration-climber-logo-design-vector-template.jpg"
+                        class="rounded-circle" alt="logo" style="width: 100px; margin-left: 100px; margin-top: 50px;">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled"">
+                    <h5 style=" color: rgb(193, 63, 63);">Popular Destinations</h5>
+                    <li><a href="kashmirr.html" class="text-white" style="text-decoration: none;">Kashmir</a></li>
+                    <li><a href="himachall.html" class="text-white" style="text-decoration: none;">Himachal</a></li>
+                    <li><a href="ladakh.html" class="text-white" style="text-decoration: none;">Ladakh</a></li>
+                    <li><a href="uttarakhand.html" class="text-white" style="text-decoration: none;">Uttarakhand</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <ul class="list-unstyled">
+                    <h5 style="color: rgb(193, 63, 63);">Quick Links</h5>
+                    <li><a href="Home.html" class="text-white" style="text-decoration: none;">Home</a></li>
+                    <li><a href="Activity.html" class="text-white" style="text-decoration: none;">Activities</a></li>
+                    <li><a href="Contact.html" class="text-white" style="text-decoration: none;">Contact</a></li>
+                    <li>
+                        <a href="#" class="nav-link rounded" data-bs-toggle="modal"
+                            data-bs-target="#loginModal">Login</a>
+                    </li>
+                    <li><a href="info.html" class="text-white" style="text-decoration: none;">Info</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <div>
+                    <h4 style="color: rgb(193, 63, 63);">Contact</h4>
+                    <address>
+                        <strong class="text-white">Ahmedabad (Head Office)</strong><br>
+                        308, University Plaza, Above Chocolate Room,<br>
+                        Vijay Cross Roads, Navrangpura,<br>
+                        Ahmedabad, Gujarat 380009<br><br>
+                        Office Timings: 10AM to 9PM
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

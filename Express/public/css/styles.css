@@ -1,0 +1,67 @@
+/* /* body {
+    padding-top: 56px;
+  } */
+  
+  /* .navbar-brand img {
+    filter: invert(1);
+  }
+  .nav1{
+    margin-left: -30%;
+  }
+  .p1{
+    font-variant: small-caps;
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* font-family: 'Times New Roman', Times, serif;
+    font-size: x-large; */
+    /* backdrop-filter:4px; */
+  /* }  */
+  /* .hr{
+    border: 2px solid brown;
+    margin-bottom: 0px;
+}
+.list{
+  justify-content: center;
+  margin-top: 0px;
+  padding: 8px;
+  width: 110%;
+  background-color: rgb(243, 244, 245);
+  height: 100%;
+}
+.list .items{
+
+}  */
+
+.popular {
+  transition-duration: 0.5s;
+  transition: transform 0.5s opacity 0.5s;
+}
+
+.popular:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeInAnimation {
+  from {
+      opacity: 0;
+  }
+
+  to {
+      opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 2s ease-in-out forwards;
+}
+
+.fact {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading {
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
